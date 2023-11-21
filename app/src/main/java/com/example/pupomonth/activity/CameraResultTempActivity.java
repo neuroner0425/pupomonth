@@ -1,4 +1,4 @@
-package com.example.pupomonth;
+package com.example.pupomonth.activity;
 
 import static com.example.pupomonth.R.*;
 
@@ -14,6 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.pupomonth.service.NetworkStatus;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.example.pupomonth;
+package com.example.pupomonth.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.pupomonth.data.ItemAlarm;
+import com.example.pupomonth.R;
 
 import java.util.List;
 

@@ -35,7 +35,7 @@
         </provider>
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,12 +43,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".CameraResultTempActivity"/>
-        <activity android:name=".CameraResultActivity"/>
-        <activity android:name=".BoardActivity"/>
-        <activity android:name=".BoardTempActivity"/>
-        <activity android:name=".MainActivityTemp"/>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.CameraResultTempActivity"/>
+        <activity android:name=".activity.CameraResultActivity"/>
+        <activity android:name=".activity.BoardActivity"/>
+        <activity android:name=".activity.BoardTempActivity"/>
+        <activity android:name=".activity.MainActivityTemp"/>
     </application>
 
 </manifest>

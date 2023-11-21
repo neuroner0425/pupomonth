@@ -1,4 +1,4 @@
-package com.example.pupomonth;
+package com.example.pupomonth.activity;
 
 import static com.example.pupomonth.R.*;
 
@@ -16,6 +16,9 @@ import android.widget.Toast;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.pupomonth.R;
+import com.example.pupomonth.service.NetworkStatus;
 
 import java.net.URL;
 import java.util.Objects;

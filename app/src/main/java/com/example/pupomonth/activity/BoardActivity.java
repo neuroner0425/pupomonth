@@ -1,20 +1,13 @@
-package com.example.pupomonth;
+package com.example.pupomonth.activity;
 
 import static com.example.pupomonth.R.*;
-import static com.example.pupomonth.R.id.btnShowMore;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.ScrollView;
@@ -23,9 +16,11 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.net.URL;
+import com.example.pupomonth.Adapter.BoardAdapter;
+import com.example.pupomonth.R;
+import com.example.pupomonth.data.ItemBoard;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class BoardActivity extends AppCompatActivity {
 

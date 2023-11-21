@@ -1,4 +1,4 @@
-package com.example.pupomonth;
+package com.example.pupomonth.service;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

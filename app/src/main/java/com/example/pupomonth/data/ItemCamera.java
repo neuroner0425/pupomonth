@@ -1,4 +1,4 @@
-package com.example.pupomonth;
+package com.example.pupomonth.data;
 
 public class ItemCamera {
     private String title;
