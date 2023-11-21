@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="background">#F0F4F9</color>
+    <color name="IDPW">#B6C7CF</color>
+    <color name="login">#3C5096</color>
+    <color name="google">#9BA7CB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="IDfont">#5B6367</color>
+    <color name="join">#D2D9ED</color>
+    <color name="black">#000</color>
+</resources>

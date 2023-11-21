@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_menu1"
+        android:title="전체 보기" />
+    <item
+        android:id="@+id/action_menu2"
+        android:title="관리자 공지" />
+    <item
+        android:id="@+id/action_menu3"
+        android:title="내 게시물" />
+
+</menu>

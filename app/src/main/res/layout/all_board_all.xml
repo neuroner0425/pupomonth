@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
+        <include layout="@layout/board_all"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/menu_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="top|center"
+        android:orientation="horizontal"
+        android:background="@color/login"
+        android:paddingTop="10dp">
+        <ImageButton
+            android:id="@+id/navi11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_home_24"
+            android:drawableTintMode="add"
+            android:layout_marginHorizontal="10dp"/>
+        <ImageButton
+            android:id="@+id/navi22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_access_alarm_24"
+            android:layout_marginHorizontal="10dp"/>
+        <ImageButton
+            android:id="@+id/navi33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_camera_alt_24"
+            android:layout_marginHorizontal="10dp"/>
+        <ImageButton
+            android:id="@+id/navi44"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_people_outline_24"
+            android:layout_marginHorizontal="10dp"/>
+        <ImageButton
+            android:id="@+id/navi55"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/baseline_settings_24"
+            android:layout_marginHorizontal="10dp"/>
+
+
+    </LinearLayout>
+</FrameLayout>
